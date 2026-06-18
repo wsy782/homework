@@ -1,4 +1,5 @@
 // ex03 millis无阻塞SOS求救灯 标准三短三长三短
+// ex03 作业：利用millis无阻塞实现SOS三短三长三短灯光信号
 const int ledPin = 2;
 unsigned long timer = 0;
 int state = 0;
