@@ -1,4 +1,5 @@
 // ex02 使用millis实现1Hz无阻塞LED闪烁，禁止delay阻塞程序
+// 作业ex02：依靠millis无阻塞计时，实现1Hz周期LED闪烁
 const int ledPin = 2;
 unsigned long prevTime = 0;
 // 亮500ms、灭500ms，完整周期1000ms=1Hz
